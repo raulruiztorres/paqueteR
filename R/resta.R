@@ -5,8 +5,11 @@
 #' @param a primer numero
 #' @param b segundo numero
 #'
-#' @return Devuelve la resta entre a y b
+#' @return Devuelve la resta entre `a` y `b`
 #' @export
+#'
+#' @seealso
+#' \code{\link{suma}}
 #'
 #' @examples
 #' resta(5, 2)

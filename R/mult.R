@@ -5,8 +5,11 @@
 #' @param a primer numero
 #' @param b segundo numero
 #'
-#' @return Devuelve la multiplicacion entre a y b
+#' @return Devuelve la multiplicacion entre `a` y `b`
 #' @export
+#'
+#' @seealso
+#' \code{\link{div}}
 #'
 #' @examples
 #' mult(5, 2)

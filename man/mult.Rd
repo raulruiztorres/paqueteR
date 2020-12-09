@@ -12,11 +12,14 @@ mult(a, b)
 \item{b}{segundo numero}
 }
 \value{
-Devuelve la multiplicacion entre a y b
+Devuelve la multiplicacion entre \code{a} y \code{b}
 }
 \description{
 Esta funcion realiza la multiplicacion entre dos numeros
 }
 \examples{
 mult(5, 2)
+}
+\seealso{
+\code{\link{div}}
 }

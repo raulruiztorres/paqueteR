@@ -5,8 +5,14 @@
 #' @param a numerador
 #' @param b denominador distinto de cero
 #'
-#' @return Devuelve la division entre a y b
+#' @return Devuelve la division entre `a` y `b`
 #' @export
+#'
+#' @seealso
+#' \code{\link{mult}}
+#'
+#' @note
+#' Cuando b vale 0 la division dara error
 #'
 #' @examples
 #' div(5, 2)

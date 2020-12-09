@@ -12,11 +12,14 @@ suma(a, b)
 \item{b}{segundo numero}
 }
 \value{
-Devuelve la suma entre a y b
+Devuelve la suma entre \code{a} y \code{b}
 }
 \description{
 Esta funcion realiza la suma entre dos numeros
 }
 \examples{
 suma(5, 2)
+}
+\seealso{
+\code{\link{resta}}
 }

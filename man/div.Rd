@@ -12,11 +12,17 @@ div(a, b)
 \item{b}{denominador distinto de cero}
 }
 \value{
-Devuelve la division entre a y b
+Devuelve la division entre \code{a} y \code{b}
 }
 \description{
 Esta funcion realiza la division entre dos numeros
 }
+\note{
+Cuando b vale 0 la division dara error
+}
 \examples{
 div(5, 2)
+}
+\seealso{
+\code{\link{mult}}
 }

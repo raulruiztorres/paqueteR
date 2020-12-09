@@ -12,11 +12,14 @@ resta(a, b)
 \item{b}{segundo numero}
 }
 \value{
-Devuelve la resta entre a y b
+Devuelve la resta entre \code{a} y \code{b}
 }
 \description{
 Esta funcion realiza la resta entre dos numeros
 }
 \examples{
 resta(5, 2)
+}
+\seealso{
+\code{\link{suma}}
 }
