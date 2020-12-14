@@ -1,0 +1,51 @@
+---
+title: "Explicacion detallada de las operaciones"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{opelem}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(opelem)
+```
+
+## Ejemplos
+
+Vamos a ver los siguientes ejemplos:
+
+### Ejemplo de la operacion suma
+
+```{r}
+suma(2,3)
+```
+
+### Ejemplo de la operacion resta
+
+```{r}
+resta(2,3)
+```
+
+
+### Ejemplo de la operacion multiplicación
+
+```{r}
+mult(2,3)
+```
+
+
+### Ejemplo de la operacion división
+
+```{r}
+div(2,3)
+```
+
+## Algo
