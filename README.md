@@ -18,6 +18,7 @@ install.packages("opelem")
 
 This is a basic example which shows you how to solve a common problem:
 
+
 ``` r
 library(opelem)
 ## basic example code
